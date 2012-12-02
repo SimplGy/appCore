@@ -8,11 +8,11 @@ define(
         'dolla'
     ],
     function(Backbone, $) {
-        var me = 'app1/pages/dashboard.view',
-            Dash
+        var me = 'app1/pages/reports.view',
+            Page
 
         // Private
-        Dash = Backbone.View.extend({
+        Page = Backbone.View.extend({
             /**
              * Set up a new view
              * @param options.parentSelector a selector for the element to append this view to
@@ -28,6 +28,6 @@ define(
                 $('body').css('background-color','pink')
             }
         })
-        return Dash
+        return Page
     }
 )

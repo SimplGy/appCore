@@ -10,14 +10,12 @@ define(
     ],
     function(Backbone, app, $) {
         var me = 'app1/pages/home.view',
-            Home
+            Page
 
 
-        Home = Backbone.View.extend({
+        Page = Backbone.View.extend({
             /**
              * Set up a new view
-             * @param options.parentSelector a selector for the element to append this view to
-             * @param options.urlParams an array of options parsed by Backbone.Router from the url
              */
             initialize: function() {
                 $(this.options.parentSelector).html(this.$el)
@@ -39,6 +37,6 @@ define(
                 $('body').css('background-color','lavender')
             }
         })
-        return Home
+        return Page
     }
 )

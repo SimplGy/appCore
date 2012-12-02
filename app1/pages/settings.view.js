@@ -9,10 +9,10 @@ define(
     ],
     function(Backbone, $) {
         var me = 'app1/pages/settings.view',
-            Settings
+            Page
 
         // Private
-        Settings = Backbone.View.extend({
+        Page = Backbone.View.extend({
             /**
              * Set up a new view
              * @param options.parentSelector a selector for the element to append this view to
@@ -28,6 +28,6 @@ define(
                 $('body').css('background-color','blanchedalmond')
             }
         })
-        return Settings
+        return Page
     }
 )
