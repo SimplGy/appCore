@@ -8,7 +8,7 @@ define(
         'dolla'
     ],
     function(Backbone, $) {
-        var me = 'app1/pages/reports.view',
+        var me = 'exampleApp1/pages/reports.view',
             Page
 
         // Private
